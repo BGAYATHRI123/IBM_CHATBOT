@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Header Container</title>
+<style>
+    .header-container {
+        background-color: #9b9292; 
+        color: #fff; 
+        padding: 20px; 
+        text-align: center;
+    }
+    .header-link {
+        color: #fff; 
+        text-decoration: none;
+        margin: 0 10px; 
+    }
+    .header-link:hover {
+        text-decoration: underline;
+    }
+</style>
+</head>
+<body>
+  <h1 style="font-size:40px;text-align:center;"> PERSONAL PORTFOLIO</h1>
+  <title>Header Container</title>
+  <style>
+      .header-container {
+          background-color: #9b9292; 
+          color: #fff; 
+          padding: 20px; 
+          text-align: center;
+      }
+      .header-link {
+          color: #fff; 
+          text-decoration: none;
+          margin: 0 10px; 
+      }
+      .header-link:hover {
+          text-decoration: underline;
+      }
+  </style>
+  </head>
+  <body>
+      <div class="header-container">
+          <a href="Portfolio.html" class="header-link">PORTFOLIO</a>
+          <a href="About.html" class="header-link">ABOUT</a>
+          <a href="Resume.html" class="header-link">RESUME</a>
+          <a href="Contact.html" class="header-link">CONTACT</a>
+      </div>
+  
+  <style>
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: calc(50% - 20px); /* Adjust the width of the input fields */
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+      display: inline-block; /* Display input elements inline */
+      margin-right: 20px; /* Add some space between the input elements */
+    }
+    
+    label {
+      display: block; /* Display labels as block elements */
+      margin-bottom: 5px; /* Add some space between labels */
+    }
+    
+    input[type="submit"] {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+<form action="process_form.php" method="post" style="margin-top: 40px; text-align: center;">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+  
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+  
+  <label for="subject">Subject:</label>
+  <input type="text" id="subject" name="subject" required>
+  
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" rows="4" required></textarea>
+  
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
